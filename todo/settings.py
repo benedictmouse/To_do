@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-zagckw^xe$p6kw3&(nl12#9m5c)deqwr!8^bo1)#ymo!fwumms
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["bentodo.onrender.com","127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["bentodo.onrender.com","127.0.0.1", "localhost","bentodo.vercel.app"]
 
 
 # Application definition
@@ -58,6 +58,7 @@ MIDDLEWARE = [
 
 ALLOWED_HOSTS = [
     'bentodo.onrender.com',  
+    'bentodo.vercel.app',
     '127.0.0.1',
     'localhost',
 ]
@@ -66,6 +67,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://bentodo.onrender.com",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://bentodo.vercel.app",
 ]
 
 
